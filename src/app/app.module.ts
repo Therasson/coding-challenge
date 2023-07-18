@@ -15,11 +15,13 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { EntrepotComponent } from './component/dashboard/entrepot/entrepot.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarComponent
+    SidebarComponent,
+    EntrepotComponent
   ],
   imports: [
     BrowserModule,
